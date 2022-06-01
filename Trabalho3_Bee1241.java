@@ -5,6 +5,8 @@ import java.util.Scanner;
 * A classe Main recebe um valor referente ao numero de testes desejados. Ela então realiza a quantidades de testes indicado, recebendo, a cada teste, dois valores
 * inteiros A e B. Os valores são então comparados, de forma que, se B é igual aos valores finais de A, eles são considerados como um encaixe.
 *
+* Este programa esta em https://github.com/vicente322/Trabalho3
+*
 *@authors Vicente Hofmesiter, Gabriel Grossi
 *@version 2022-06-01
 *
