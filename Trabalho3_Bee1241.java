@@ -8,7 +8,7 @@ import java.io.IOException;
 *
 * Este programa esta em https://github.com/vicente322/Trabalho3
 *
-*@authors Vicente Hofmesiter, Gabriel Grossi
+*@authors Vicente Hofmeister, Gabriel Grossi
 *@version 2022-06-01
 *
 */
