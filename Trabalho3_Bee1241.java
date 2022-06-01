@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 /**Encaixa ou não II
 *
-*
+* A classe Main recebe um valor referente ao numero de testes desejados. Ela então realiza a quantidades de testes indicado, recebendo, a cada teste, dois valores
+* inteiros A e B. Os valores são então comparados, de forma que, se B é igual aos valores finais de A, eles são considerados como um encaixe.
 *
 *@authors Vicente Hofmesiter, Gabriel Grossi
 *@version 2022-06-01
@@ -55,5 +56,6 @@ public class Main{
 
                   ConfereEncaixe(valorA, valorB);
             }
+            sc.close();
       }
 }
