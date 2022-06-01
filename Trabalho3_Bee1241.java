@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.IOException;
 
 /**Encaixa ou não II
 *
@@ -14,14 +15,10 @@ import java.util.Scanner;
 
 public class Main{
 
-      public static void ConfereEncaixe(int valorA, int valorB){
+      public static void ConfereEncaixe(String a, String b){
             int c = 1;
-            String a, b;
 
-            if (valorA >= valorB){
-
-                  a = "" + valorA;
-                  b = "" + valorB;
+            if (a.length() >= b.length()){
 
                   for (int i = b.length(); i > 0; i--){
 
@@ -43,20 +40,20 @@ public class Main{
             }
       }
 
-      public static void main(String args[]){
+      public static void main(String args[]) throws IOException{
             Scanner sc;
             int testes;
-            int valorA, valorB;
+            String a, b;
 
             sc = new Scanner(System.in);
             testes = sc.nextInt();
 
             for (int t = 1; t <= testes; t++){
 
-                  valorA = sc.nextInt();
-                  valorB = sc.nextInt();
+                  a = sc.next();
+                  b = sc.next();
 
-                  ConfereEncaixe(valorA, valorB);
+                  ConfereEncaixe(a, b);
             }
             sc.close();
       }
