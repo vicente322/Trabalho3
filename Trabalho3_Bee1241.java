@@ -1,11 +1,13 @@
+import java.util.Scanner;
+
 /**Encaixa ou não II
+*
+*
 *
 *@authors Vicente Hofmesiter, Gabriel Grossi
 *@version 2022-06-01
 *
 */
-
-import java.util.Scanner;
 
 public class Main{
 
